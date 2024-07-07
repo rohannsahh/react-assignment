@@ -4,58 +4,32 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 const departmentData = [
+
+    
   {
     id: 1,
-    name: 'Department 1',
+    name: 'customer_service',
     subDepartments: [
-      { id: 1.1, name: 'Sub Department 1.1' },
-      { id: 1.2, name: 'Sub Department 1.2' },
-      { id: 1.3, name: 'Sub Department 1.3' },
+      { id: 1.1, name: 'support' },
 
-      { id: 1.4, name: 'Sub Department 1.4' },
-      { id: 1.5, name: 'Sub Department 1.5' },
+      { id: 1.2, name: 'customer_success' },
 
     ],
   },
+ 
   {
     id: 2,
-    name: 'Department 2',
+    name: 'design',
     subDepartments: [
-      { id: 2.1, name: 'Sub Department 2.1' },
+      { id: 2.1, name: 'web_design' },
 
-      { id: 2.2, name: 'Sub Department 2.2' },
-      { id: 2.3, name: 'Sub Department 2.3' },
-      { id: 2.4, name: 'Sub Department 2.4' },
-      { id: 2.5, name: 'Sub Department 2.5' },
+      { id: 2.2, name: 'product_design' },
+      { id: 2.3, name: 'graphic_design' },
+   
 
     ],
   },
-  {
-    id: 3,
-    name: 'Department 3',
-    subDepartments: [
-      { id: 2.1, name: 'Sub Department 3.1' },
 
-      { id: 2.2, name: 'Sub Department 3.2' },
-      { id: 2.3, name: 'Sub Department 3.3' },
-      { id: 2.4, name: 'Sub Department 3.4' },
-      { id: 2.5, name: 'Sub Department 3.5' },
-
-    ],
-  },
-  {
-    id: 4,
-    name: 'Department 4',
-    subDepartments: [
-      { id: 2.1, name: 'Sub Department 4.1' },
-
-      { id: 2.2, name: 'Sub Department 4.2' },
-      { id: 2.3, name: 'Sub Department 4.3' },
-      { id: 2.4, name: 'Sub Department 4.4' },
-      { id: 2.5, name: 'Sub Department 4.5' },
-
-    ],
-  },
 ];
 
 const Departments = () => {

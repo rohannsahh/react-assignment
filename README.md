@@ -1,5 +1,5 @@
 1. fork repository 
-2. git clone 
+2. git clone https://github.com/rohannsahh/react-assignment.git
 3. npm i 
 
 
